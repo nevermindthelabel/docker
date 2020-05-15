@@ -33,3 +33,5 @@ RUN set -ex \
   # smoke tests
   && node --version \
   && npm --version
+
+CMD ["node"]
