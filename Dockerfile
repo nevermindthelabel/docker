@@ -1,4 +1,5 @@
-FROM node:lts-alpine
+FROM centos:centos8.1.1911
 
-RUN apk add git zsh
-EXPOSE 8000
+ENV NODE_VERSION 14.2.0
+
+
